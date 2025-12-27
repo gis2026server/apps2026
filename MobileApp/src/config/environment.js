@@ -6,7 +6,7 @@ import Constants from 'expo-constants';
 // Mac/Linux: ifconfig or ip addr
 
 // IMPORTANT: Update this IP address to match your computer's local network IP
-const DEV_API_URL = 'http://192.168.0.43:3000/api';
+const DEV_API_URL = 'http://192.168.0.43:3001/api';
 
 // For production, use your actual server URL
 const PROD_API_URL = 'https://your-production-server.com/api';
@@ -45,8 +45,8 @@ export const getApiUrl = () => {
 // 2. Look for your local network IP (usually starts with 192.168.x.x or 10.0.x.x)
 // 
 // 3. Update the DEV_API_URL above with your IP address
-//    Example: const DEV_API_URL = 'http://192.168.1.100:3000/api';
+//    Example: const DEV_API_URL = 'http://192.168.1.100:3001/api';
 // 
 // 4. Make sure your computer and mobile device are on the same WiFi network
 // 
-// 5. Ensure your firewall allows connections on port 3000
+// 5. Ensure your firewall allows connections on port 3001
