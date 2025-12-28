@@ -9,7 +9,7 @@ import Constants from 'expo-constants';
 const DEV_API_URL = 'http://192.168.0.43:3001/api';
 
 // For production, use your actual server URL
-const PROD_API_URL = 'https://your-production-server.com/api';
+const PROD_API_URL = 'https://gisconnect.online/api';
 
 // Automatically detect environment
 const ENV = {
